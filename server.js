@@ -19,7 +19,7 @@ app.get('/how-to',function(req,res){
     
 });
 
-app.get('/article-three',function(req,res){
+app.get('/tony_stark',function(req,res){
     res.send('Article three requested');
     
 });
