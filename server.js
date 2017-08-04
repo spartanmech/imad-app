@@ -15,7 +15,7 @@ app.get('/about',function(req,res){
 });
 
 app.get('/how-to',function(req,res){
-    res.send('Coming soon');
+    res.sendFile(path.join(__dirname, 'ui', 'how-to.html'));
     
 });
 
