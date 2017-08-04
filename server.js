@@ -20,7 +20,7 @@ app.get('/how-to',function(req,res){
 });
 
 app.get('/tony_stark',function(req,res){
-    res.send('Article three requested');
+   res.sendFile(path.join(__dirname,'ui','tony stark.html'));
     
 });
 
