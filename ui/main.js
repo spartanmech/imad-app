@@ -3,7 +3,7 @@ console.log('Loaded!');
 var img = document.getElementById('Jarvis');
 var marginLeft = 0;
 function moveRight(){
-    marginLeft = marginLeft + 1;
+    marginLeft = marginLeft + 10;
     img.style.marginLeft = marginLeft+'px';
 }
 img.onclick = function(){
