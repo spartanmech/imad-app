@@ -1,11 +1,13 @@
-console.log('Loaded!');
-//Select the image
-var img = document.getElementById('Jarvis');
-var marginLeft = 0;
-function moveRight(){
-    marginLeft = marginLeft + 10;
-    img.style.marginLeft = marginLeft+'px';
-}
-img.onclick = function(){
-   var interval = setInterval(moveRight,500);
+// button config
+var button = document.getElementById('counter');
+button.onclick = function(){
+    //Make a request to the counter endpoint
+    //that is clicking
+    
+    //caputre the response and store it in a variable
+    
+    // Render/display the variable in the correct span
+    counter = counter+1;
+    var span = document.getElementById('count');
+    span.inHTML = span.toString();
 }
